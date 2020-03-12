@@ -10,7 +10,7 @@ const client = new Client({
 client
   .connect()
   .then(() => console.log('Connected to Postgres database.'))
-  .then(() => client.query(`SELECT * from recipes WHERE name = 'Meatloaf'`))
+  .then(() => client.query(`SELECT * from recipes`))
   .then(res => console.log(console.table(res.rows)))
   .catch(e => console.log(e))
   .finally(() => client.end());

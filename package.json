@@ -7,5 +7,9 @@
   "license": "MIT",
   "dependencies": {
     "pg": "^7.18.2"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "fullTable": "node fullTable.js"
   }
 }

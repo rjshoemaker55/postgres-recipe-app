@@ -10,6 +10,7 @@
   },
   "scripts": {
     "test": "node index.js",
-    "fullTable": "node fullTable.js"
+    "fullTable": "node fullTable.js",
+    "asyncFullTable": "node asyncFullTable.js"
   }
 }
